@@ -1,0 +1,173 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-Bold';
+}
+
+/* Heading*/
+
+.big-heading{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size:3rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Comtainer */
+.container-fluid{
+    padding:7% 15%;
+    text-align: center;
+}
+
+/* Sections */
+
+.color-section{
+    background-color: #ff4c68;
+    color:#fff;
+    text-align: center;
+}
+
+.white-section{
+    background-color: #fff;
+    text-align: center;
+}
+
+
+/* Navigation bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size:2.5rem;
+    font-weight:bold;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size:1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.download-btn{
+    margin:5% 3% 5% 0;
+}
+
+
+/* Title Image */
+
+#title .container-fluid{
+    padding:3% 15% 7%;
+    text-align: left;
+}
+
+.titleimg{
+    width:20%;
+    transform:rotate(25deg);
+    position:absolute;
+    right:30%;
+}
+
+.title-row{
+    padding-top:4.5rem;
+}
+
+/*Feature Sections */
+
+#features{
+    position:relative;
+}
+
+.feature-heading{
+    font-size:1.5rem;
+}
+
+.fa-feature{
+    color:#ef8172;
+}
+
+.feature{
+    color:#8f8f8f;
+}
+
+
+/*Testimonial Sectons  */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+
+/* Press Section */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-image{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+/* Pricing Section*/
+#pricing{
+    padding:100px;
+}
+
+.pricing-col {
+    padding:3% 5%;
+}
+
+.card-heading{
+    font-size:1.5rem;
+}
+
+/* cta Section */
+
+#cta{
+    background-color: #ff4c68;
+}
+
+
+/* Footer Section */
+
+#footer{
+    color:#8f8f8f;
+}
+
+.footer-icon{
+    margin:3% 2%;
+}
+
+@media (max-width:768px){
+
+    #title{
+        text-align: center;
+    }
+
+    .titleimg{
+        position:absolute;
+        transform:rotate(0);
+    }
+}
